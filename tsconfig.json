@@ -1,0 +1,12 @@
+{
+  "extends": "@mendix/pluggable-widgets-tools/configs/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": "./",
+    // "declarationDir" :"dist"
+    // "jsx": "react-jsx",
+    // "outDir": "dist"
+    // "allowUnusedLabels": true
+    "noUnusedLocals":false
+  },
+  "include": ["./src", "./typings", "webpack.js"]
+}
